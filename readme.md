@@ -147,8 +147,9 @@ The following sections outline a _reasonable_ style guide for modern JavaScript 
 
 1. <a name="whitespace">Whitespace</a>
   - Never mix spaces and tabs.
-  - When beginning a project, before you write any code, choose between soft indents (spaces) or real tabs, consider this **law**.
-      - For readability, I always recommend setting your editor's indent size to two characters &mdash; this means two spaces or two spaces representing a real tab.
+  - Always use tabs for indentation (for both - code and comments).
+  - Do not leave trailing spaces (**note:** empty lines should not contain any spaces).
+  - Always use LF line endings. Never use CRLF.
   - If your editor supports it, always work with the "show invisibles" setting turned on. The benefits of this practice are:
       - Enforced consistency
       - Eliminating end of line whitespace
